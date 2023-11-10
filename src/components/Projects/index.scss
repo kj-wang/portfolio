@@ -14,11 +14,12 @@ h2 {
 .summary {
     position: relative;
     padding: 10px 0px;
+
+    &:hover {
+        
+    }
 }
 
-.summary:hover {
-    background-color: red;
-}
 
 .details {
     margin-left: 15px;
