@@ -1,11 +1,12 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { useEffect, useState } from 'react'
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
-import { faSquare } from '@fortawesome/free-solid-svg-icons'
-import Loader from 'react-loaders'
-import { SkillBar } from 'react-skills';
+// import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+// import { faSquare } from '@fortawesome/free-solid-svg-icons'
+// import Loader from 'react-loaders'
+// import { SkillBar } from 'react-skills';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 const About = () => {
