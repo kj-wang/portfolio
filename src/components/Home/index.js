@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/images/logo-s.png'
+// import LogoTitle from '../../assets/images/logo-s.png'
 import './index.scss';
-import AnimatedLetters from '../AnimatedLetters';
+import AnimatedLetters from '../AnimatedLetters';ç
 import { useEffect, useState } from 'react';
-import Loader from 'react-loaders';
+// import Loader from 'react-loaders';
 
 
 const Home = () => {
