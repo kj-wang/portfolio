@@ -1,0 +1,25 @@
+.accordion {
+    background-color: #181818;
+}
+
+h2 {
+    color: #EEF3FA;
+    font-size: 20px;
+    font-family: 'Coolvetica';
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.summary {
+    position: relative;
+    padding: 10px 0px;
+}
+
+.summary:hover {
+    background-color: red;
+}
+
+.details {
+    margin-left: 15px;
+}
