@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import Loader from 'react-loaders'
+// import Loader from 'react-loaders'
 import emailjs from 'emailjs-com'
 
 
