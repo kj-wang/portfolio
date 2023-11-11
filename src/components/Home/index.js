@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 // import LogoTitle from '../../assets/images/logo-s.png'
 import './index.scss';
-import AnimatedLetters from '../AnimatedLetters';ç
+import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
 // import Loader from 'react-loaders';
 
