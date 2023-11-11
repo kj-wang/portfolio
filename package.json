@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "18.x",
-    "npm": "9.5.x"
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "heroku": {
+    "stack": "heroku-20"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
