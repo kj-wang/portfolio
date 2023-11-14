@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { useEffect, useState } from 'react'
@@ -7,6 +7,7 @@ import Accordion from '@mui/joy/Accordion';
 import AccordionDetails from '@mui/joy/AccordionDetails';
 import AccordionGroup from '@mui/joy/AccordionGroup';
 import AccordionSummary from '@mui/joy/AccordionSummary';
+import { Element } from 'react-scroll';
 
 
 
@@ -27,7 +28,7 @@ const Projects = () => {
 
     return (
         <>
-        <div className='container projects-page'>
+        <div className='container projects-page' id='projects'>
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters

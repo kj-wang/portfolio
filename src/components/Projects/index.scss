@@ -15,9 +15,12 @@ h2 {
     position: relative;
     padding: 10px 0px;
 
-    &:hover {
-        
+    button {
+        &:hover {
+            background-color: #1B1C1E !important;
+        }
     }
+   
 }
 
 

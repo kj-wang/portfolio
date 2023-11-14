@@ -35,30 +35,12 @@ const Contact = () => {
                 // console.log(error.text);
                 alert("Failed to send the message, please try again")
             });
-
-        // emailjs
-        // .sendForm(
-        //     'service_4ng9ndk',
-        //     'template_b0cc95r',
-        //     refForm.current,
-        //     '1qligAiPX9nyDDrH8'
-        // )
-
-        // .then(
-        //     () => {
-        //         alert('Message successfully sent!')
-        //         window.location.reload(false)
-        //     },
-        //     () => {
-        //         alert('Failed to send the message, please try again')
-        //     }
-        // )
     }
 
 
     return (
         <>
-        <div className='container contact-page'>
+        <div className='container contact-page' id='contact'>
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters 
