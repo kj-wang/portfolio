@@ -7,6 +7,7 @@ import Projects from '../Projects';
 import Contact from '../Contact';
 import About from '../About';
 import { Link } from 'react-scroll';
+import profilePicture from '../../assets/images/home-page-photo.png'
 // import Loader from 'react-loaders';
 
 
@@ -50,9 +51,8 @@ const Home = () => {
                 <h2>Full Stack Developer</h2>
                 <Link smooth spy to="contact" className='flat-button'>CONTACT ME</Link>
             </div>
-            {/* <Logo /> */}
+            <img src={profilePicture} alt="profile" className="profile-picture"/>
         </div>
-        {/* <Loader type="pacman"/> */}
 
         <About/>
         <Projects/>

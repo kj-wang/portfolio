@@ -1,5 +1,6 @@
 .accordion {
     background-color: #181818;
+    filter: none;
 }
 
 h2 {
@@ -14,6 +15,8 @@ h2 {
 .summary {
     position: relative;
     padding: 10px 0px;
+    filter: none;
+
 
     button {
         &:hover {

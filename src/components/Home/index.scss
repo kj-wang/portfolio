@@ -52,7 +52,7 @@
     }
 
     h2 {
-        color: #8d8d8d;
+        color: #EEF3FA;
         margin-top: 20px;
         font-weight: 400;
         font-size: 14px;
@@ -62,7 +62,7 @@
     }
 
     .flat-button {
-        color: #66FCF1;
+        color: #EEF3FA;
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 4px;
@@ -80,5 +80,13 @@
             background-color: #66FCF1;
             color: #333;
         }
+    }
+
+    .profile-picture {
+        height: 500px;
+        position: absolute;
+        right: 18%;
+        top: 200px;
+        animation: fadeIn 2s 3s backwards;
     }
 }
